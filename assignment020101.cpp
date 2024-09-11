@@ -69,6 +69,8 @@ int main()
         case 2:
             printDateFromConsole(&t1);
             cout<<endl;
+            IsLeapYear(&t1);
+            cout<<endl;
             break;
         default:
             initDate(&t1);

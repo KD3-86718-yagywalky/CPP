@@ -68,12 +68,16 @@ int main()
         case 2:
             printDateFromConsole(&t1);
             cout<<endl;
+            IsLeapYear(&t1);
+            cout<<endl;
+
+            cout<<endl;
             break;
         default:
             initDate(&t1);
             break;
         }
-        IsLeapYear(&t1);
+        
     }
     return 0;
 }
