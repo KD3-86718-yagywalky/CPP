@@ -1,7 +1,9 @@
 #include<iostream>
 using namespace std;
 
-struct Student {
+
+class Student {
+public:
     int roll_no;
     string name;
     int marks;
