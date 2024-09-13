@@ -53,10 +53,21 @@ int main(){
     T1[0]= new Time();
     T1[1]=new Time(12,44,56);
     T1[2]= new Time(05,04,56);
+    T1[3]->setHours(07);
+    T1[3]->setMinutes(50);
+    T1[3]->setSecond(59);
+    T1[3]->printTime();
+    T1[4]->setHours(01);
+    T1[4]->setMinutes(32);
+    T1[4]->setSecond(60);
+    
 
     for(int i=0;i<6;i++){
         T1[i]->printTime();
+        cout<<endl;
     }
+    cout<<"Time by getters and setters : "<<T1[4]->getHours()<<":"<<T1[4]->getMinute()<<":"<<T1[4]->getSeconds()<<endl;
+
     for (int i=0;i<6;i++){
         delete T1[i];
         T1[i]= NULL;
