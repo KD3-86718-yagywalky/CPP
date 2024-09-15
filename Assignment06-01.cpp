@@ -29,13 +29,13 @@ class Date{
     }
 
     void acceptDate(){
-        cout<<"Enter Date";
+        cout<<"Enter Date :- ";
         cin>>day;
         // cout<<endl;
-        cout<<"Entre month";
+        cout<<"Entre month :- ";
         cin>>month;
         //cout<<endl;
-        cout<<"Enter Year";
+        cout<<"Enter Year :- ";
         cin>>year;
         //cout<<endl;
         
@@ -87,6 +87,7 @@ class Employee : public Date{
         cout<<"dept :- ";
         cin>>dept;
         cout<<endl;
+        cout<<"Date of Joining :- ";
         doj.acceptDate();
     }
     void displayDetails(){
